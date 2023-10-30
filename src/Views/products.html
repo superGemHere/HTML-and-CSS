@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/styles.css">
+    <title>React App</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="profile-link" href="#">Profile</a>
+        <nav class="navbar">
+            <div class="interaction-links">
+                <a class="navbar__item" href="./home.html">Home</a>
+                <a class="navbar__item" href="#">Dashboard</a>
+                <a class="navbar__item" href="./services.html">Services</a>
+                <a class="navbar__item" href="./products.html">Products</a>
+                <a class="navbar__item" href="#">Post Haircut</a>
+            </div>
+            
+            <div class="user-links">
+                <a class="navbar__item" href="./login.html">Login</a>
+                <a class="navbar__item" href="./register.html">Register</a>
+                <a id="userLogout" href="#">Logout</a>
+            </div>
+
+        </nav>
+
+    </header>
+    <main class="products">
+        <div class="productsParentContainer">
+            <div class="productChildContainer">
+                <div class="serviceCard" style="background-image: linear-gradient(rgba(32, 32, 32, 0.7), rgba(26, 25, 25, 0.7)),
+    url(https://cdn1.vectorstock.com/i/1000x1000/52/20/hair-cut-template-for-barber-shop-vector-33115220.jpg); background-size: cover;">
+                    <h2>Haircuts</h5>
+                    <div class="cardInsights" style="display: none;">
+                        Click for more details.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
