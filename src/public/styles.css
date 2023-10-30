@@ -336,7 +336,7 @@ form  input {
 #serviceHeading{
   height: fit-content;
   position: relative;
-  top: 100px;
+  top: 50px;
   font-size: 60px;
   font-weight: bolder;
   text-shadow: 3px 3px grey;
@@ -350,7 +350,7 @@ form  input {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  top: 200px;
+  top: 100px;
   /* left: -150px; */
 }
 
@@ -368,7 +368,32 @@ form  input {
   border-radius: 10px;
 }
 
-.serviceCard:hover{
+.serviceCard:hover {
   border: 10px solid #fff;
   border-style:double;
+
+}
+.serviceCard:hover > .cardInsights{
+  display: block;
+}
+.serviceCard:hover > h2{
+  display: none;
+}
+
+.cardInsights{
+  display: none;
+}
+
+
+
+
+
+                    /* Product Page  */
+
+.products{
+  height: 93%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(12, 10, 10, 0.8)),
+    url(https://cdn.magicdecor.com/com/2023/09/29162714/bareber-shop-without-mockup-1.jpg);
+  background-size: 100%;
+  background-position: center;
 }
