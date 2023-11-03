@@ -101,8 +101,8 @@ body {
 .register-container {
   width: 30%;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(7, 7, 7, 0.75)),
-    url(https://fabricville.com/cdn/shop/products/QC587-003-002_1024x.jpg?v=1624386525);
+  background-image: linear-gradient(rgba(219, 216, 216, 0.75), rgba(100, 97, 97, 0.75)),
+    url(https://kinneygroup.com/wp-content/uploads/2019/10/fw-bg-gradient-1024x576.png);
   background-size: 100%;
   background-position: center;
   /* width: 20%; */
@@ -213,8 +213,8 @@ form  input {
 .login-container {
   width: 30%;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(7, 7, 7, 0.75)),
-    url(https://fabricville.com/cdn/shop/products/QC587-003-002_1024x.jpg?v=1624386525);
+  background-image: linear-gradient(rgba(110, 108, 108, 0.75), rgba(107, 105, 105, 0.75)),
+    url(https://kinneygroup.com/wp-content/uploads/2019/10/fw-bg-gradient-1024x576.png);
   background-size: 100%;
   background-position: center;
   /* width: 20%; */
@@ -391,9 +391,91 @@ form  input {
                     /* Product Page  */
 
 .products{
+  width: 100%;
   height: 93%;
+  display: flex;
+  justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(12, 10, 10, 0.8)),
-    url(https://cdn.magicdecor.com/com/2023/09/29162714/bareber-shop-without-mockup-1.jpg);
+    url(https://wallpapers.com/images/hd/barber-shop-background-c8pq8le29lkcb64m.jpg);
   background-size: 100%;
   background-position: center;
+}
+
+.productsParentContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 50px; */
+}
+
+#productsHeading{
+  height: fit-content;
+  position: relative;
+  top: 5px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 3px 3px grey;
+  /* left: 860px; */
+}
+
+.productChildContainer{
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 1000px;
+display: flex;
+position: relative;
+bottom: 20px;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+border: 5px solid rgba(255, 255, 255, 0.15);
+border-radius: 20px;
+}
+.productChildContainer::-webkit-scrollbar{
+display: none;
+}
+
+.productChildContainer img{
+  
+width: 200px;
+height: 200px;
+}
+
+
+.productCard{
+  margin: 10px;
+  padding: 20px;
+width: 250px;
+height: fit-content;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 5px solid rgba(255, 255, 255, 0.4);
+border-radius: 10px;
+border-style:outset;
+background-color: black;
+}
+
+.insideCard{
+  font-size: 25px;
+}
+
+#detailsBtn{
+  color: #131313;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 10px;
+  text-decoration: none;
+}
+#detailsBtn:hover{
+  color: #fff;
+  background-color: rgb(6, 136, 136);
 }
